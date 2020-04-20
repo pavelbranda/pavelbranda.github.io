@@ -1,0 +1,69 @@
+img {
+  width: 100%;
+  padding-left: 100px;
+  padding-right: 100px;
+  border-top: 5px solid black; /*border is wider the picture?*/
+}  
+  
+.page-header h1 {
+  font-family: 'Abril Fatface';
+  font-size: 70px;
+  position: absolute;
+  top: 270px;  /*How to do it easier?*/
+  left: 370px; /*How to do it easier?*/
+}
+
+.page-header h2 {
+  font-family: 'Abril Fatface';
+  font-size: 38px;
+  position: absolute;
+  top: 245px;  /*How to do it easier?*/
+  left: 355px; /*How to do it easier?*/
+}
+
+ul {
+  list-style: square;
+}
+
+main {
+  font-family: 'Josefin Sans', sans-serif; /*Why font-family doesn't apply?*/
+  font-color: #222;                        /*Why font-color doesn't apply?*/
+  width: 600px;
+  margin: 0 auto;
+  padding: 70px;
+  padding-left: 270px;
+}
+
+h4 {
+  font-style: italic;
+}
+
+h3 {
+  width: 650px;
+}
+
+.quote {
+  background: gray;
+  width: 850px;
+  padding: 10px;
+  color: white;
+  position: relative;
+  right: 50px;
+}
+
+blockquote p {
+  display: inline;
+  font-family: 'Abril Fatface';
+  font-size: 50px;  
+}
+
+blockquote::before {
+  content: open-quote;
+  font-family: 'Abril Fatface';
+  font-size: 70px;
+}
+
+
+footer {
+  border-top: 5px solid black;
+}
