@@ -5,7 +5,9 @@
 img {
   width: 90%;
   height: auto;
-  border-top: 5px solid black;
+  border-top: 5px solid #2D2D2D;
+  position: relative;
+  top: -8px;
 }  
 
 .page-header h1 {
@@ -14,6 +16,7 @@ img {
   bottom: -70px;
   right: 50px;
   font-family: 'Abril Fatface';
+  color:#2D2D2D;
   font-size: 70px;
 }
 
@@ -24,6 +27,7 @@ img {
   bottom: -80px;
   right: 230px;
   font-family: 'Abril Fatface';
+  color: #2D2D2D;
   font-size: 38px;
 }
 
@@ -32,8 +36,9 @@ ul {
 }
 
 main {
-  font-family: 'Josefin Sans', sans-serif; /*Why font-family doesn't apply?*/
-  color: #222;                        /*color x font-color není*/
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px; 
+  color:#2D2D2D;                        
   width: 900px;
   margin: 0 auto;
   padding-top: 120px;
@@ -47,8 +52,9 @@ h3 {
   width: 650px;
 }
 
+
 .quote {
-  background: gray;
+  background:#2D2D2D;
   width: 850px;
   padding: 10px;
   color: white;
