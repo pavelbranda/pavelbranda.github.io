@@ -45,13 +45,18 @@ main {
 }
 
 h4 {
+  font-family: 'Merriweather', serif;
   font-style: italic;
+  font-size: 15px;
 }
 
 h3 {
   width: 650px;
 }
 
+.formal-training {
+  font-weight: bold;  /*why not bold?*/
+}
 
 .quote {
   background:#2D2D2D;
@@ -73,7 +78,6 @@ blockquote::before {
   font-family: 'Abril Fatface';
   font-size: 70px;
 }
-
 
 footer {
   border-top: 5px solid black;
