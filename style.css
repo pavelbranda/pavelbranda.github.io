@@ -35,12 +35,16 @@ ul {
   list-style: square;
 }
 
+.intro {
+  font-size: 20px;
+}
+
 main {
   font-family: 'Josefin Sans', sans-serif;
-  font-size: 20px; 
+  font-size: 15px; 
   color:#2D2D2D;                        
-  width: 900px;
   margin: 0 auto;
+  width: 700px;
   padding-top: 120px;
 }
 
@@ -80,5 +84,11 @@ blockquote::before {
 }
 
 footer {
-  border-top: 5px solid black;
+  border-top: 4px solid black;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
+
+/*font-bold?*/
+/*font-vertical spaced*/
+/*quote boxes*/
