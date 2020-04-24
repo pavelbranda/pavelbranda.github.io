@@ -10,16 +10,6 @@ img {
   top: -8px;
 }  
 
-.page-header h1 {
-  margin-top: -250px;
-  position: relative;
-  bottom: -70px;
-  right: 50px;
-  font-family: 'Abril Fatface';
-  color:#2D2D2D;
-  font-size: 70px;
-}
-
 .page-header h2 {
   margin-top: -250px;
   margin-bottom: 250px;
@@ -31,64 +21,104 @@ img {
   font-size: 38px;
 }
 
-ul {
-  list-style: square;
+.page-header h1 {
+  margin-top: -250px;
+  position: relative;
+  bottom: -70px;
+  right: 50px;
+  font-family: 'Abril Fatface';
+  color:#2D2D2D;
+  font-size: 70px;
+}
+
+main {
+  font-family: 'Josefin Sans';
+  font-size: 15px; 
+  color:#2D2D2D;                        
+  margin: 0 auto;
+  width: 750px;
+  padding-top: 120px;
 }
 
 .intro {
   font-size: 20px;
 }
 
-main {
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 15px; 
-  color:#2D2D2D;                        
-  margin: 0 auto;
-  width: 700px;
-  padding-top: 120px;
+
+ul {
+  list-style: square;
+  line-height: 1.5em;
+}
+
+p, h2, h4, ul {
+  line-height: 1.5em;
+}
+
+h2 {
+  margin-bottom: 50px;
+}
+
+h3 {
+  width: 650px;
+  line-height: 1.5em;
+  font-size: 20px;
+  display: inline;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 h4 {
   font-family: 'Merriweather', serif;
   font-style: italic;
   font-size: 15px;
-}
-
-h3 {
-  width: 650px;
-}
-
-.formal-training {
-  font-weight: bold;  /*why not bold?*/
+  font-weight: bold;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .quote {
   background:#2D2D2D;
   width: 850px;
-  padding: 10px;
+  padding: 40px;
+  margin: 50px 0;
   color: white;
   position: relative;
   right: 50px;
+  text-align: left;
 }
 
 blockquote p {
   display: inline;
   font-family: 'Abril Fatface';
   font-size: 50px;  
+  text-align: center;
 }
 
 blockquote::before {
-  content: open-quote;
+  content: '“';
   font-family: 'Abril Fatface';
   font-size: 70px;
+  display: block;
+  font-size: 150px;
+  margin: 0;
+  height: 50px;
+  position: absolute;
+  top: -40px;
+  left: 0px
+}
+
+.line {
+  padding-bottom: 20px;
+}
+
+.formal-training {
+  padding-bottom: 40px;
 }
 
 footer {
   border-top: 4px solid black;
-  padding-top: 40px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
-/*font-bold?*/
-/*font-vertical spaced*/
 /*quote boxes*/
